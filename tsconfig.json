@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es2022",
+        "target": "ES2023",
+        "strict": false,
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "noEmit": false,
+        "esModuleInterop": true,
+        "paths": {"@/*": ["./src/*"]}
+    },
+    "include": ["src", "definitions"],
+    "exclude": ["node_modules"]
+}
